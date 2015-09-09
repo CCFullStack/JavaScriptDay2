@@ -9,8 +9,8 @@ for (var i = 0; i < 10; i++) {
 var sum = 0;
 
 // use foreach to sum all the numbers in the array
-array.forEach(function (pleaseDontNameYourVariableThis) {
-    sum += pleaseDontNameYourVariableThis;
+array.forEach(function (current) {
+    sum += current;
 });
 
 /*
